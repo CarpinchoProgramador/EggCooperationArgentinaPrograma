@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	
+	//Define dos variables que guarden números enteros, defina una tercera variable donde aloje el
+	//resultado se sumarán ambas variables. Comente su código indicando qué finalidad tiene cada
+	//línea.
+	
+	
+	//definimos nuestras variables
+	Definir a, b Como Entero
+	
+	//asignamos valor a nuestras variables
+	a = 10
+	b = 100
+	
+	//mostramos en pantalla la suma de nuestras variables
+	Escribir a + b
+	
+	
+FinAlgoritmo

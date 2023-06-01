@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Definir sueldoUsuario, sueldoMinimo Como Real
+	
+	Escribir "Ingrese su sueldo:"
+	Leer sueldoUsuario
+	Escribir "Ingrese el sueldo minimo:"
+	Leer sueldoMinimo
+	
+	Si sueldoUsuario >= sueldoMinimo Entonces
+		Escribir "Su sueldo se encuentra por encima del sueldo minimo."
+	Fin Si
+	
+FinAlgoritmo

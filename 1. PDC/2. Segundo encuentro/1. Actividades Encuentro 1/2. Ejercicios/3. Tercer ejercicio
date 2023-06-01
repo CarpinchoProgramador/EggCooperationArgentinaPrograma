@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	
+	//A partir de una conocida cantidad de metros que el usuario ingresa a través del teclado se
+	//debe obtener su equivalente en centímetros, en milímetros y en pulgadas.
+	
+	Definir metro, centimetro, milimetro, pulgada Como Real
+	
+	Escribir "Ingrese su medida en metros: "
+	Leer metro
+	
+	centimetro = metro * 100
+	milimetro = metro * 1000
+	pulgada = centimetro * 2.54
+	
+	Escribir "Centimetro/s: ", centimetro
+	Escribir "Milimetro/s: ", milimetro
+	Escribir "Pulgada/s: ", pulgada
+	
+FinAlgoritmo

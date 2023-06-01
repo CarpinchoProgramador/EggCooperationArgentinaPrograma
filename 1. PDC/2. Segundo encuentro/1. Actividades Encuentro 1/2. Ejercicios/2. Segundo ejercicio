@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	// Escribir un programa que calcule el precio promedio de un producto. El precio promedio se
+	// debe calcular a partir del precio del mismo producto en tres establecimientos distintos.
+	
+	Definir precio1, precio2, precio3 Como Real
+	
+	Escribir "Ingrese el precio del producto del establecimiento 1: "
+	Leer precio1
+	
+	Escribir "Ingrese el precio del producto del establecimiento 2: "
+	Leer precio2
+	
+	Escribir "Ingrese el precio del producto del establecimiento 3: "
+	Leer precio3
+	
+	Escribir "El precio promedio del producto es de: ", '$', (precio1 + precio2 + precio3) / 3
+	
+FinAlgoritmo

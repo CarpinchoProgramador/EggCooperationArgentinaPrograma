@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	//Escriba un programa que permita al usuario ingresar el valor de dos variables numéricas de
+	//tipo entero. Posteriormente, el programa debe intercambiar los valores de ambas variables y
+	//mostrar el resultado final por pantalla.
+	
+	Definir a, b, aux Como Real
+	
+	Escribir "Ingrese el valor de A: "
+	Leer a;	
+	Escribir "Ingrese el valor de B: "
+	Leer b;
+	
+	aux = a;
+	a = b;
+	b = aux;
+	
+	Escribir "El valor de A luego de ser intercambiado es: ", a
+	Escribir "El valor de B luego de ser intercambiado es: ", aux
+	
+FinAlgoritmo

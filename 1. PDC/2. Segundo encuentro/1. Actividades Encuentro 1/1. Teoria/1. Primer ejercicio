@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	// Vamos a poner en práctica lo que acabamos de ver, 
+	// vamos a crear en PseInt, una variable de cada tipo de dato posible.
+	
+	Definir a Como Caracter
+	Definir b Como Entero
+	Definir c Como Logico
+	Definir d Como Real
+	
+FinAlgoritmo

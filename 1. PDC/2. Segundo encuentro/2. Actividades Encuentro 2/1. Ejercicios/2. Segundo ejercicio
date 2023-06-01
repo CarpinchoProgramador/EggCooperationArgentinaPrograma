@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	//Solicitar al usuario que ingrese la base y altura de un rectángulo, y calcular 
+	//y mostrar por pantalla el área y perímetro del mismo
+	//area = base * altura
+	//perimetro = 2 * altura + 2 * base.
+	
+	
+	Definir area, base, altura, perimetro Como Real
+	
+	Escribir "Ingrese la base de su rectangulo: "
+	Leer base
+	Escribir "Ingrese la altura de su rectangulo: "
+	Leer altura
+	
+	area = base * altura
+	perimetro = 2 * altura + 2 * base
+	
+	Escribir "El area de su triangulo es ", area, " y su perimetro es de ", perimetro
+	
+FinAlgoritmo

@@ -1,0 +1,7 @@
+Algoritmo sin_titulo
+	// Escribir un algoritmo en el cual se muestre nuestro nombre completo en la interfaz gráfica de
+	//PseInt.
+	
+	Escribir "Mi nombre completo es Laureano Natanael Miranda."
+	
+FinAlgoritmo

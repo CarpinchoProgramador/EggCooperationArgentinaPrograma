@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	//Conocido el número en matemática PI ?, pedir al usuario que ingrese el valor del radio de
+	//una circunferencia y calcular y mostrar por pantalla el área y perímetro. Recuerde
+	
+	Definir radio, area, perimetro como Real
+	
+	Escribir "Ingresé el radio de su circunferencia en centrimetros (cm): "
+	
+	Leer radio
+	
+	area = PI * (radio * radio)
+	perimetro = 2 * PI * radio
+	
+	Escribir "El área de su circunferencia es de: ", area, "cm"
+	Escribir "El perimetro de su circunferencia es de: ", perimetro, "cm"
+	
+	
+FinAlgoritmo

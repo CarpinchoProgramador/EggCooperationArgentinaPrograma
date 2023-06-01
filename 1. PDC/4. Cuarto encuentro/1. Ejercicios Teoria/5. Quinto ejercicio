@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	Definir num Como Real
+	Leer num
+	
+	si num > 500 Entonces
+		Escribir num * 0.18
+	FinSi
+	
+FinAlgoritmo

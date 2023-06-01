@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Definir num, centena, decena, unidad Como Real
+	
+	Escribir "Ingrese un numero de 3 cifras."
+	Leer num 
+	
+	centena = trunc(num / 100)
+	decena = trunc(num / 10) - (centena * 10)
+	unidad = num - centena * 100 - decena * 10
+	
+	Si centena = unidad Entonces
+		Escribir "Su numero es capicua."
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,9 @@
+Algoritmo Definicion_Variables
+	//Copia y pega el código que está a continuación, ahí vas a ver que el código tiene mal escritas las
+	//palabras reservadas, tu tarea es arreglar el código.
+	
+	Definir algoritmo_1 Como Logico
+	Definir numero_1 Como Entero
+	Definir cadena_1 Como Caracter
+	
+FinAlgoritmo

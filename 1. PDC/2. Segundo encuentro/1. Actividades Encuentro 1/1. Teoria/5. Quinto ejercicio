@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	
+	//Escribe un algoritmo definiendo la variable nombre como cadena, 
+	//asigna allí tu información y luego muéstralo por pantalla escribiendo la variable.
+	
+	Definir nombre Como Caracter
+	nombre = "Laureano"
+	
+	Escribir nombre
+FinAlgoritmo

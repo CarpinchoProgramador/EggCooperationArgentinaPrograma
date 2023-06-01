@@ -1,0 +1,21 @@
+Algoritmo sin_titulo
+	//Un colegio desea saber qué porcentaje de niños y qué porcentaje de niñas hay en el curso
+	//actual. Diseñar un algoritmo para este propósito. Recuerda que para calcular el porcentaje
+	//puedes hacer una regla de 3 simple. El programa debe solicitar al usuario que ingrese la
+	//cantidad total de niños, y la cantidad total de niñas que hay en el curso.
+	
+	Definir nino, nina Como Entero
+	Definir porcentajeNina, porcentajeNino Como Real
+	
+	
+	Escribir "Ingrese la cantidad de alumnos masculinos: "
+	Leer nino
+	Escribir "Ingrese la cantidad de alumnos femeninos: "
+	Leer nina
+	
+	porcentajeNino = (nino * 100) / (nino + nina)
+	porcentajeNina = (nina * 100) / (nino + nina)
+	
+	Escribir "El porcentaje de niños es de ", "%", redon(porcentajeNino), ". Y el porcentaje de niñas es de " , "%", redon(porcentajeNina)
+	
+FinAlgoritmo

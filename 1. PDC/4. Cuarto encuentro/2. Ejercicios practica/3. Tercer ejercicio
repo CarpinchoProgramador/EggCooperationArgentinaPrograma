@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Definir dia Como Caracter
+	Escribir "Ingrese un dia de la semana"
+	Leer dia
+	
+	Si dia <> 'Domingo' Entonces
+		Escribir "Hoy es un dia laboral."
+	FinSi
+	
+FinAlgoritmo

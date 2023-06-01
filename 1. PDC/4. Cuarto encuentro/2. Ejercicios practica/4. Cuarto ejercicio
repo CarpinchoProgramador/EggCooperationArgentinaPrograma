@@ -1,0 +1,33 @@
+Algoritmo sin_titulo
+	Definir correoElectronico, solicitudesEmergencia, solicitudesEjecutivos Como Entero
+	
+	Escribir "Iniciar sesión con usuario de administrador para ver los informes de marketing."
+	Escribir "Buscar los últimos ingresos publicitarios en los informes de marketing."
+	Escribir "Completar la hoja de cálculo de ingresos mensuales con los informes de marketing."
+	Escribir "Revisar correo electronico."
+	
+	Escribir "¿Cuantos correos electronicos hay?"
+	Leer correoElectronico
+	Escribir "¿Cuantos solicitudes de emergencia de otros departamentos hay?"
+	Leer solicitudesEmergencia
+	Escribir "¿Cuantas solicitudes de ejecutivos hay?"
+	Leer solicitudesEjecutivos
+	
+	
+	Si correoElectronico < 10 Entonces
+		Escribir "Revisar correo de voz."		
+	FinSi
+	
+	Si solicitudesEmergencia > 0 Entonces
+		Escribir "Realizar solicitudes de emergencia de otros departamentos."
+	FinSi
+	
+	Si solicitudesEjecutivos > 0 Entonces
+		Escribir "Realizar solicitudes de ejecutivos."
+	FinSi
+	
+	Escribir "Enviar correo electronico de actualización."
+	Escribir "Apagar la PC."
+	Escribir "Regar la planta."
+	
+FinAlgoritmo
