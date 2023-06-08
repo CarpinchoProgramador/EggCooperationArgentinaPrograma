@@ -4,16 +4,28 @@ public class Cine {
     
     private Pelicula pelicula;
     private Espectador[][] salaEspectadores;
-    private boolean[][] auxAsientoOcupado;
-
-    public Cine() {
+    private Boolean[][] auxAsientoOcupado;
+    private double precioEntrada;
+        
+    public Cine() {       
     }
 
-    public Cine(Pelicula pelicula, Espectador[][] salaEspectadores, boolean[][] auxAsientoOcupado) {
+    public Cine(Pelicula pelicula, Espectador[][] salaEspectadores, Boolean[][] auxAsientoOcupado, double precioEntrada) {
         this.pelicula = pelicula;
         this.salaEspectadores = salaEspectadores;
         this.auxAsientoOcupado = auxAsientoOcupado;
+        this.precioEntrada = precioEntrada;
     }
+
+    public double getPrecioEntrada() {
+        return precioEntrada;
+    }
+
+    public void setPrecioEntrada(double precioEntrada) {
+        this.precioEntrada = precioEntrada;
+    }
+
+    
 
     public Pelicula getPelicula() {
         return pelicula;
@@ -31,11 +43,11 @@ public class Cine {
         this.salaEspectadores = salaEspectadores;
     }
 
-    public boolean[][] getAuxAsientoOcupado() {
+    public Boolean[][] getAuxAsientoOcupado() {
         return auxAsientoOcupado;
     }
 
-    public void setAuxAsientoOcupado(boolean[][] auxAsientoOcupado) {
+    public void setAuxAsientoOcupado(Boolean[][] auxAsientoOcupado) {
         this.auxAsientoOcupado = auxAsientoOcupado;
     }
 
